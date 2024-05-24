@@ -1,0 +1,62 @@
+@media (min-width: 1400px) {
+    .product {
+        width: 20%;
+    }
+}
+
+.navbar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #070707;
+    z-index: -1;
+    
+}
+a {
+    color: #070707;
+}
+.navbar-bg {
+    height: 70px;
+    background-color: #f0f6ff;
+}
+
+body {
+    margin: 0;
+    font-family:  "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color:#f0f6ff ;
+}
+body.layout-3 .navbar.navbar-secondary {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+}
+.list-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.product {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.link-product {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* margin: auto; */
+}

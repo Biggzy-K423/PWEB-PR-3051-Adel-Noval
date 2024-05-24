@@ -1,0 +1,9 @@
+<script>
+$(document).ready(function(){
+  $('#dropdownMenuLink').click(function(){
+    $('.dropdown-menu').toggle();
+  });
+});
+</script>
+</body>
+</html>
